@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
+import SearchBar from './components/form/search-bar';
 
-function App() {
-  return (
-    <div className="App">   
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state={
+      startDate: '',
+      endDate: ''
+    }
+  }
+  render() {
+    return (
+      <div className="App">
+        <SearchBar
+        />
+      </div>
+    );
+  }
 }
 
 export default App;
