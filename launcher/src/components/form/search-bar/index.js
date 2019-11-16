@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import TextInput from '../../block/text-input';
+import SearchButton from '../../block/button';
 
 class SearchBar extends Component {
     constructor(props) {
@@ -11,6 +12,7 @@ class SearchBar extends Component {
         }
 
         this._onChange = this._onChange.bind(this);
+        this.getData = this.getData.bind(this);
     }
 
     _onChange(e) {
@@ -19,12 +21,17 @@ class SearchBar extends Component {
         });
     }
 
+    getData() {
+        console.log(" i'm able to click");
+    }
+
     render() {
         console.log(this.state);
         return (
             <div>
                 <TextInput name="startDate" value={this.state.startDate} onChange={this._onChange}/>
                 <TextInput name="endDate" value={this.state.endDate} onChange={this._onChange}/>
+                <SearchButton title="show" onClick={this.getData}/>
             </div>
         );
     }

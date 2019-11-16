@@ -3,7 +3,6 @@ import { shallow } from 'enzyme';
 import renderer from 'react-test-renderer';
 import '../../../../setupTest';
 import SearchBar from './';
-import TextInput from '../../block/text-input';
 
 const suite = 'Test SearchBar component';
 
