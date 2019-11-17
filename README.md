@@ -2,6 +2,9 @@
 
 #Start the application
 
+- git clone
+- cd launcher
+
 - npm install
 - npm run start - to start the application
 - npm run test - to run the unit testing
