@@ -1,0 +1,10 @@
+.launch-table-wrapper {
+    width: 535px;
+    margin: 0 auto;
+}
+
+.chart-container {
+    display: inline-block;
+    margin-top:30px;
+    margin-bottom: 30px;
+}

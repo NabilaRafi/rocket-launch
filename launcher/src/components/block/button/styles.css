@@ -1,0 +1,8 @@
+.search-button {
+    height: 30px;
+    margin: 20px 20px 20px 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #eaeaea;
+    width: 60px;
+}

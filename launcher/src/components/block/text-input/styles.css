@@ -1,0 +1,9 @@
+.text-input {
+    height: 30px;
+    margin: 20px;
+}
+/* @media (max-width: 480px) {
+    .text-input{
+        margin: 0;
+    }
+} */
